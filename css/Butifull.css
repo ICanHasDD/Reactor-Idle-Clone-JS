@@ -1,0 +1,29 @@
+table {
+  grid-column: 1/3;
+  align-self: center;
+  justify-self: center;
+  display: inline;
+  border-spacing: 0px
+}
+td {
+  border: 1px solid black;
+  width: 28px;
+  height: 30px;
+  padding: 0px;
+}
+
+h1 {
+  grid-column: 1;
+}
+
+p {
+  grid-column: 2;
+  align-self: center;
+  justify-self: end;
+  margin-right: 10px
+}
+
+body {
+  display: inline-grid;
+  width: 100%;
+}
